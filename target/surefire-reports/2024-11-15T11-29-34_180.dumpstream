@@ -1,0 +1,4 @@
+# Created at 2024-11-15T11:29:34.491
+Boot Manifest-JAR contains absolute paths in classpath 'D:\GitHub\panda_application\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
