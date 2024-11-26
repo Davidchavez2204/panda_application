@@ -9,6 +9,6 @@ Sample springboot aplication with using thymeleaf and web spring
    B. Análisis Estático
    C. Pruebas Unitarias
    D. Pruebas Funcionales
-   E. Pruebas de Seguridad
-   F. Pruebas de Performance
+   E. Pruebas de Performance
+   F. Pruebas de Seguridad
    G. Gestión de Issues: En GitHub Projects, registrar los defectos mas importantes encontrados por las pruebas en Sonar.       En GitHub Projects, registrar la división de esfuerzo de los miembros del equipo - Asignción de tareas(Nombre de la       tarea, descripción, responsable, etiqueta y durción).
