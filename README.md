@@ -61,6 +61,9 @@ En este apartado se trabajó utilizando **Apache JMeter** con los siguientes par
 <p align="center">
 <img src="https://github.com/user-attachments/assets/5439b0f7-aa12-42a6-8510-d96ece894cac" width="600"/>
 </p>
+#### Integración de las pruebas de performance con Jenkins:
+
+
 
 ### F. Pruebas de Seguridad
 Se realizan pruebas de seguridad para garantizar que la aplicación esté protegida contra vulnerabilidades comunes, como inyecciones SQL, XSS y CSRF.
