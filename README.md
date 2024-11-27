@@ -64,7 +64,7 @@ En este apartado se trabajó utilizando **Apache JMeter** con los siguientes par
 
 #### Integración de las pruebas de performance con Jenkins:
 <p align="center">
-<img src="https://github.com/Davidchavez2204/VerificacionyValidcionDeSW/blob/main/JMETER.PNG?raw=true" width="600"/>
+<img src="![JMETER](https://github.com/user-attachments/assets/af9a701c-537b-40ee-84e3-5f1d96fd599d)" width="600"/>
 </p>
 
 ### F. Pruebas de Seguridad
