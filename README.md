@@ -158,6 +158,8 @@ En este apartado se trabajó utilizando **Apache JMeter** con los siguientes par
 </p>
 
 #### Integración de las pruebas de performance con Jenkins:
+   Este pipeline de Jenkins ejecuta pruebas de rendimiento con Apache JMeter en modo headless (sin interfaz gráfica). La etapa "Pruebas de Rendimiento - JMeter" contiene un bloque de pasos que imprime un mensaje informativo en la consola indicando el inicio de las pruebas. Luego, utiliza el comando bat para ejecutar JMeter desde la terminal de Windows, especificando el archivo de pruebas .jmx ubicado en D:/JMeter/Summary Report.jmx. Las opciones del comando incluyen -n para el modo no gráfico, -l para guardar los resultados en un archivo .jtl, -e para generar un informe HTML, y -o para definir el directorio de salida D:/Jenkins/reporte_rendimiento. Este proceso automatiza la ejecución de las pruebas y la generación de reportes, permitiendo la integración continua y el monitoreo del rendimiento en proyectos de software.
+   
 <p align="center">
 <img src="https://github.com/user-attachments/assets/af9a701c-537b-40ee-84e3-5f1d96fd599d" width="600"/>
 </p>
