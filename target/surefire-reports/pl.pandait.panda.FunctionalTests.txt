@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.pandait.panda.FunctionalTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.339 s - in pl.pandait.panda.FunctionalTests
