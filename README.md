@@ -182,9 +182,6 @@ El proyecto se desarrolló utilizando tecnologías modernas como Spring Boot y T
 
 ---
 
-## 4. Contacto
-Si tienes alguna pregunta o comentario sobre el proyecto, no dudes en ponerte en contacto con el equipo a través de [GitHub Issues](https://github.com/user/repository/issues).
-
 
 
    
