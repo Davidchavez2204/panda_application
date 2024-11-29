@@ -1,6 +1,3 @@
-# panda_application
-Sample Spring Boot application using Thymeleaf and Spring Web.
-
 ## 1. Propósito del Proyecto
 ### Objetivo
 Este proyecto tiene como objetivo demostrar la creación de una aplicación web utilizando Spring Boot y Thymeleaf, que permite realizar operaciones básicas sobre mensajes.
