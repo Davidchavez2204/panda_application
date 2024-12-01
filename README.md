@@ -30,7 +30,53 @@ El sistema utiliza una base de datos integrada (como H2) para almacenar los dato
 La construcción automática de la aplicación se realiza mediante Jenkins y Maven, asegurando que el código siempre esté en una versión construible y lista para ser desplegada.
 
 ### B. Análisis Estático
-Se utiliza SonarQube para realizar análisis estáticos del código y asegurar la calidad del software.
+El análisis estático es una técnica utilizada para examinar el código fuente de un programa sin ejecutarlo con el objetivo identificar defectos, vulnerabilidades, o violaciones de estándares de codificación que puedan afectar la calidad, seguridad, o mantenibilidad del software.
+
+En el proyecto, se utilizaron las siguientes herramientas para implementar análisis estático:
+
+         1. **SonarQube**: Genera informes detallados y métricas que ayudan a mejorar la calidad del código.
+         
+         2. **Jenkins**: Integrado con SonarQube para automatizar este proceso como parte de un pipeline de CI/CD.
+
+#### Informe de SonarQube
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/SonarQube.jpg" alt="Image Alt">
+</div>
+
+1. **Complejidad Ciclomática y Coginitva**  
+   Ayuda a evaluar la mantenibilidad y simplicidad del código.
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Complejidad.png" alt="Image Alt">
+</div>
+
+2. **Bugs**  
+   Se identificaron 2 bugs de tipo:
+
+   **Add "lang" and/or "xml:lang" attributes to this "<html>" element**
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Bugs.jpg" alt="Image Alt">
+</div>
+
+
+3. **Code Smells**  
+   Se identificaron 5 code smells de tipo:
+
+**Duplication**
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/CodeSmells.jpg" alt="Image Alt">
+</div>
+
+#### Integración de las pruebas de performance con Jenkins:
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/SonarQube_code.png" alt="Image Alt">
+</div>
+
+
 
 ### C. Pruebas Unitarias
 Las pruebas unitarias son un método de verificación que se utiliza para validar que cada componente individual de un sistema funcione correctamente. Estas pruebas están diseñadas para aislar y probar pequeñas unidades de código
