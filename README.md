@@ -18,7 +18,9 @@ Las pruebas unitarias son un método de verificación que se utiliza para valida
 
 En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java para la creación y ejecución de pruebas unitarias. por su facilidad de integración, eficiencia y estandarización
 
-![Image Alt](https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Junit.jpg)
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Junit.jpg" alt="Image Alt">
+</div>
 
 
   #### Pruebas:
@@ -32,6 +34,10 @@ En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java 
    
          3. Verificar que la respuesta contiene el texto "Message created with ID", asegurando que el mensaje fue creado exitosamente.
 
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/8e69a0da10acc85ce6fa8fad423a932719ab892b/Imagenes/CreateMessage.jpg">
+</div>
+
 2. **testGetMessage:**
 
    . Objetivo: Garantizar que los mensajes creados puedan ser recuperados correctamente.
@@ -43,8 +49,12 @@ En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java 
          3. Realizar una solicitud GET al endpoint con el ID del mensaje.
    
          4. Verificar que el contenido del mensaje recuperado es "Test Message".
+
+ <div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/217438fc712d6ec033e98f7be24b600baf08d700/Imagenes/GetMessage.jpg">
+</div>  
    
-3. **testGetMessage:**
+3. **testUpdateMessage:**
 
    . Objetivo: Asegurar que los mensajes se puedan modificar correctamente.
    
@@ -57,6 +67,9 @@ En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java 
          4. Verificar que la respuesta indique que el mensaje fue actualizado para el ID correcto.
    
          5. Realizar una solicitud GET al mismo ID para confirmar que el contenido actualizado es "Updated Message". 
+ <div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/217438fc712d6ec033e98f7be24b600baf08d700/Imagenes/UpdateMessagejpg.jpg">
+</div>  
 
 4. **testDeleteMessage:**
 
@@ -71,6 +84,10 @@ En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java 
          4. Verificar que la respuesta confirme la eliminación del mensaje.
    
          5. Intentar recuperar el mensaje eliminado con una solicitud GET y confirmar que la respuesta indique "Message not found".
+
+ <div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/217438fc712d6ec033e98f7be24b600baf08d700/Imagenes/DeleteMessage.jpg">
+</div> 
 
 
    
