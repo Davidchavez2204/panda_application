@@ -1,10 +1,29 @@
 ## 1. Propósito del Proyecto
-### Objetivo
-Este proyecto tiene como objetivo demostrar la creación de una aplicación web utilizando Spring Boot y Thymeleaf, que permite realizar operaciones básicas sobre mensajes.
+### Descripción
+Nuestra aplicación web se basa en Spring Boot con Thymeleaf como motor de plantillas para la interfaz. Ofrece operaciones CRUD sobre mensajes, utilizando endpoints HTTP para realizar las siguientes acciones:
 
 ### Funcionalidades principales
-- Crear, obtener, actualizar y eliminar mensajes mediante peticiones HTTP.
+- Crear mensajes: Permite registrar un nuevo mensaje en el sistema.
+- Obtener mensajes: Recupera un mensaje específico mediante su ID.
+- Actualizar mensajes: Modifica el contenido de un mensaje existente.
+- Eliminar mensajes: Borra un mensaje almacenado en el sistema.
 - Integración con Apache JMeter para realizar pruebas de performance.
+
+### Objetivo
+El objetivo de la web es brindar una experiencia sencilla pero funcional para interactuar con datos de mensajes, incluyendo soporte para pruebas automatizadas.
+
+### Ramas
+El repositorio de GitHub tiene las siguientes ramas:
+- master: Contiene el código en su versión estable y listo para producción.
+- develop: Usada para consolidar características en desarrollo antes de ser integradas en master.
+- pruebas-unitarias: Incluye las pruebas unitarias desarrolladas con JUnit para validar componentes individuales del sistema.
+- pruebas-funcionales: Rama dedicada a pruebas funcionales usando Selenium WebDriver para automatizar la interacción con la interfaz gráfica.
+
+### Guardado de Datos
+El sistema utiliza una base de datos integrada (como H2) para almacenar los datos. Durante la ejecución:
+- Los datos se gestionan a través de Spring Data JPA, permitiendo la abstracción en el manejo de repositorios.
+- La configuración de persistencia se encuentra en el archivo application.properties, ubicado en el proyecto dentro del directorio src/main/resources.
+- Los mensajes se almacenan en tablas de base de datos, con soporte para operaciones transaccionales.
 
 ## 2. Pipeline: Para todas, herramienta/Framework + Evidencia(fragmento de código)+ Integración con Jenkins
 ### A. Construcción Automática
