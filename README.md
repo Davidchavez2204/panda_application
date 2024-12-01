@@ -71,6 +71,7 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
    Se identificaron 2 bugs de tipo:
 
    **Add "lang" and/or "xml:lang" attributes to this "<html>" element**
+   - Descripción: El elemento `<html>` no especifica atributos `lang` o `xml:lang`, lo que puede afectar la accesibilidad. 
 
 <div align="center">
   <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/Bugs.jpg">
@@ -79,13 +80,16 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
 3. **Code Smells**  
    Se identificaron 5 code smells de tipo:
 
-**Duplication**
+   **Duplication**
+   - Descripción: Puede generar inconsistencias, dificultar el mantenimiento, y aumentar la deuda técnica.
 
 <div align="center">
   <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/CodeSmells.jpg">
 </div>
 
 #### Integración de las pruebas de performance con Jenkins:
+
+El análisis estático se integró en el pipeline de Jenkins utilizando Maven. Esto garantiza la detección temprana de problemas y mantiene la calidad del código de manera continua.  
 
 <div align="center">
   <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/SonarQube_code.png">
