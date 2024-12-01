@@ -18,7 +18,7 @@ Las pruebas unitarias son un método de verificación que se utiliza para valida
 
 En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java para la creación y ejecución de pruebas unitarias. por su facilidad de integración, eficiencia y estandarización
 
-![Image Alt](https://github.com/Davidchavez2204/panda_application/blob/575d725496bc5e28968256610bdf2d4cf008f3ee/Junit.jpg)
+![Image Alt](https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Junit.jpg)
 
 
   #### Pruebas:
