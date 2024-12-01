@@ -50,9 +50,9 @@ El análisis estático es una técnica utilizada para examinar el código fuente
 
 En el proyecto, se utilizaron las siguientes herramientas para implementar análisis estático:
 
-         1. **SonarQube**: Genera informes detallados y métricas que ayudan a mejorar la calidad del código.
+         1. SonarQube: Genera informes detallados y métricas que ayudan a mejorar la calidad del código.
          
-         2. **Jenkins**: Integrado con SonarQube para automatizar este proceso como parte de un pipeline de CI/CD.
+         2. Jenkins: Integrado con SonarQube para automatizar este proceso como parte de un pipeline de CI/CD.
 
 #### Informe de SonarQube
 
