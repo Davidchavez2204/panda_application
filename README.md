@@ -1,6 +1,13 @@
 ## 1. Propósito del Proyecto
 ### Descripción
-Nuestra aplicación web se basa en Spring Boot con Thymeleaf como motor de plantillas para la interfaz. Ofrece operaciones CRUD sobre mensajes, utilizando endpoints HTTP para realizar las siguientes acciones:
+Nuestra aplicación web se basa en Spring Boot con Thymeleaf como motor de plantillas para la interfaz. 
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/Aplicacion1.png" alt="Image Alt" width="600">
+</div>
+   <div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/Aplicacion2.png" alt="Image Alt" width="600">
+</div>
+Ofrece operaciones CRUD sobre mensajes, utilizando endpoints HTTP para realizar las siguientes acciones:
 
 ### Funcionalidades principales
 - Crear mensajes: Permite registrar un nuevo mensaje en el sistema.
@@ -28,6 +35,15 @@ El sistema utiliza una base de datos integrada (como H2) para almacenar los dato
 ## 2. Pipeline: Para todas, herramienta/Framework + Evidencia(fragmento de código)+ Integración con Jenkins
 ### A. Construcción Automática
 La construcción automática de la aplicación se realiza mediante Jenkins y Maven, asegurando que el código siempre esté en una versión construible y lista para ser desplegada.
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/contrucci%C3%B3n%20automatica%202.png" alt="Image Alt">
+</div>
+
+#### Integración con Jenkins
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/contrucci%C3%B3n%20automatica%201.png" alt="Image Alt">
+</div>
 
 ### B. Análisis Estático
 El análisis estático es una técnica utilizada para examinar el código fuente de un programa sin ejecutarlo con el objetivo identificar defectos, vulnerabilidades, o violaciones de estándares de codificación que puedan afectar la calidad, seguridad, o mantenibilidad del software.
