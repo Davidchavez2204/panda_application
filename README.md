@@ -35,13 +35,16 @@ El sistema utiliza una base de datos integrada (como H2) para almacenar los dato
 ## 2. Pipeline: Para todas, herramienta/Framework + Evidencia(fragmento de código)+ Integración con Jenkins
 ### A. Construcción Automática
 La construcción automática de la aplicación se realiza mediante Jenkins y Maven, asegurando que el código siempre esté en una versión construible y lista para ser desplegada.
-#### Integración con Jenkins:
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/contrucci%C3%B3n%20automatica%202.png" alt="Image Alt">
+</div>
+
+#### Integración con Jenkins
+
 <div align="center">
   <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/contrucci%C3%B3n%20automatica%201.png" alt="Image Alt">
 </div>
-   <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/contrucci%C3%B3n%20automatica%202.png" alt="Image Alt">
-</div>
+
 ### B. Análisis Estático
 Se utiliza SonarQube para realizar análisis estáticos del código y asegurar la calidad del software.
 
