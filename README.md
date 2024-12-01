@@ -57,14 +57,14 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
 #### Informe de SonarQube
 
 <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/SonarQube.jpg" alt="Image Alt">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/SonarQube.jpg">
 </div>
 
 1. **Complejidad Ciclomática y Coginitva**  
    Ayuda a evaluar la mantenibilidad y simplicidad del código.
 
 <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Complejidad.png" alt="Image Alt">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/Complejidad.png">
 </div>
 
 2. **Bugs**  
@@ -73,9 +73,8 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
    **Add "lang" and/or "xml:lang" attributes to this "<html>" element**
 
 <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/Bugs.jpg" alt="Image Alt">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/Bugs.jpg">
 </div>
-
 
 3. **Code Smells**  
    Se identificaron 5 code smells de tipo:
@@ -83,16 +82,14 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
 **Duplication**
 
 <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/CodeSmells.jpg" alt="Image Alt">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/CodeSmells.jpg">
 </div>
 
 #### Integración de las pruebas de performance con Jenkins:
 
 <div align="center">
-  <img src="https://github.com/Davidchavez2204/panda_application/blob/c45c5d23b88506a50bfa7c4d6d716f43101502ee/Imagenes/SonarQube_code.png" alt="Image Alt">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/SonarQube_code.png">
 </div>
-
-
 
 ### C. Pruebas Unitarias
 Las pruebas unitarias son un método de verificación que se utiliza para validar que cada componente individual de un sistema funcione correctamente. Estas pruebas están diseñadas para aislar y probar pequeñas unidades de código
