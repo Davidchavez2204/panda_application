@@ -87,7 +87,7 @@ En el proyecto, se utilizaron las siguientes herramientas para implementar anál
   <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/CodeSmells.jpg">
 </div>
 
-#### Integración de las pruebas de performance con Jenkins:
+#### Integración con Jenkins:
 
 El análisis estático se integró en el pipeline de Jenkins utilizando Maven. Esto garantiza la detección temprana de problemas y mantiene la calidad del código de manera continua.  
 
