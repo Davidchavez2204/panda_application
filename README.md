@@ -89,6 +89,19 @@ En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java 
   <img src="https://github.com/Davidchavez2204/panda_application/blob/217438fc712d6ec033e98f7be24b600baf08d700/Imagenes/DeleteMessage.jpg">
 </div> 
 
+### Evidencia de Pruebas Unitarias
+La imagen muestra que los cuatro tests se ejecutaron correctamente, sin errores ni fallos, en un tiempo total de 7.759 segundos. Esto confirma que todas las funcionalidades clave de la aplicación están funcionando como se esperaba.
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/8aa2bb384c24b5c9efc97ca44c10c5c2e688e16a/Imagenes/exito.jpeg">
+</div> 
+
+### Integración con Jenkins
+Las pruebas unitarias se ejecutan automáticamente en el pipeline de Jenkins usando Maven, y los resultados se publican en formato XUnit con el plugin JUnit, asegurando la calidad y automatización del proceso.
+
+<div align="center">
+  <img src="https://github.com/Davidchavez2204/panda_application/blob/8aa2bb384c24b5c9efc97ca44c10c5c2e688e16a/Imagenes/pandaaplicationtest.jpg">
+</div> 
 
    
 ### D. Pruebas Funcionales
