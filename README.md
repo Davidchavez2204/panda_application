@@ -14,8 +14,64 @@ La construcción automática de la aplicación se realiza mediante Jenkins y Mav
 Se utiliza SonarQube para realizar análisis estáticos del código y asegurar la calidad del software.
 
 ### C. Pruebas Unitarias
-Se ejecutan pruebas unitarias utilizando JUnit para garantizar que cada componente del sistema funcione como se espera.
+Las pruebas unitarias son un método de verificación que se utiliza para validar que cada componente individual de un sistema funcione correctamente. Estas pruebas están diseñadas para aislar y probar pequeñas unidades de código
 
+En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java para la creación y ejecución de pruebas unitarias. por su facilidad de integración, eficiencia y estandarización
+* imagen 1
+
+  #### Pruebas:
+1. **testCreateMessage:**
+
+   . Objetivo: Asegurar que la funcionalidad de creación de mensajes está operativa y genera una respuesta válida.
+   
+         1. Crear una cadena con el mensaje "Hello, World!".
+   
+         2. Enviar una solicitud POST al endpoint /create, incluyendo el mensaje.
+   
+         3. Verificar que la respuesta contiene el texto "Message created with ID", asegurando que el mensaje fue creado exitosamente.
+
+2. **testGetMessage:**
+
+   . Objetivo: Garantizar que los mensajes creados puedan ser recuperados correctamente.
+   
+         1. Crear un mensaje ("Test Message") mediante una solicitud POST.
+   
+         2. Extraer el ID del mensaje de la respuesta de creación.
+   
+         3. Realizar una solicitud GET al endpoint con el ID del mensaje.
+   
+         4. Verificar que el contenido del mensaje recuperado es "Test Message".
+   
+3. **testGetMessage:**
+
+   . Objetivo: Asegurar que los mensajes se puedan modificar correctamente.
+   
+         1. Crear un mensaje inicial ("Old Message") con una solicitud POST.
+   
+         2. Extraer el ID del mensaje creado.
+   
+         3. Enviar una solicitud PUT al endpoint correspondiente, con un nuevo contenido ("Updated Message").
+   
+         4. Verificar que la respuesta indique que el mensaje fue actualizado para el ID correcto.
+   
+         5. Realizar una solicitud GET al mismo ID para confirmar que el contenido actualizado es "Updated Message". 
+
+4. **testDeleteMessage:**
+
+   . Objetivo: Comprobar que los mensajes se puedan eliminar y que el sistema indique claramente cuando un mensaje ya no existe.
+   
+         1. Crear un mensaje ("Message to be deleted") con una solicitud POST.
+   
+         2. Extraer el ID del mensaje de la respuesta de creación.
+
+         3. Enviar una solicitud DELETE al endpoint con el ID del mensaje.
+   
+         4. Verificar que la respuesta confirme la eliminación del mensaje.
+   
+         5. Intentar recuperar el mensaje eliminado con una solicitud GET y confirmar que la respuesta indique "Message not found".
+
+
+   
 ### D. Pruebas Funcionales
 Las pruebas funcionales se ejecutan para verificar que la aplicación cumple con los requisitos especificados.
 Las pruebas funcionales se implementaron utilizando JUnit 5 como framework de pruebas y Selenium WebDriver como herramienta para la automatización de pruebas de interfaces de usuario (UI).
