@@ -17,7 +17,9 @@ Se utiliza SonarQube para realizar análisis estáticos del código y asegurar l
 Las pruebas unitarias son un método de verificación que se utiliza para validar que cada componente individual de un sistema funcione correctamente. Estas pruebas están diseñadas para aislar y probar pequeñas unidades de código
 
 En este proyecto, utilizamos JUnit, un framework ampliamente reconocido en Java para la creación y ejecución de pruebas unitarias. por su facilidad de integración, eficiencia y estandarización
-* imagen 1
+
+![Image Alt](https://github.com/Davidchavez2204/panda_application/blob/575d725496bc5e28968256610bdf2d4cf008f3ee/Junit.jpg)
+
 
   #### Pruebas:
 1. **testCreateMessage:**
