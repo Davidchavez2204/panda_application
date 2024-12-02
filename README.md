@@ -334,6 +334,12 @@ En este apartado se trabajó utilizando **Apache JMeter** con los siguientes par
 ### F. Pruebas de Seguridad
 Se realizan pruebas de seguridad para garantizar que la aplicación esté protegida contra vulnerabilidades comunes, como inyecciones SQL, XSS y CSRF.
 
+  Se realizan tareas adicionales para validaciones usando ZAP ante la aplicación, esto se hace haciendo uso de un entorno contenido de tal manera que ejecuta las pruebas web necesarias para validar la seguridad del rendimiento, esto lo hace usando la imagen oficial de ZAP (https://hub.docker.com/r/zaproxy/zap-stable) el cual generará un reporte que podrá ser revisado con el fin de saber si se trata de una versión segura de la aplicación. Además permite parametrizar el tipo de evaluaciones que se realizarán.
+
+<p align="center">
+<img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/image_2024-12-02_044232802.png" width="600"/>
+</p>
+
 ### G. Gestión de Issues
 En **GitHub Projects**, se registran los defectos más importantes encontrados por las pruebas en **SonarQube**. Además, se gestiona la división de esfuerzos del equipo, asignando tareas de la siguiente manera:
 
