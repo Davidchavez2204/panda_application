@@ -340,6 +340,12 @@ Se realizan pruebas de seguridad para garantizar que la aplicación esté proteg
 <img src="https://github.com/Davidchavez2204/panda_application/blob/master/Imagenes/image_2024-12-02_044232802.png" width="600"/>
 </p>
 
+#### Integración con Jenkins
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b2b75b6d-cb73-49d1-b2e9-893e2ed1542a" width="600"/>
+</p>
+
 ### G. Gestión de Issues
 En **GitHub Projects**, se registran los defectos más importantes encontrados por las pruebas en **SonarQube**. Además, se gestiona la división de esfuerzos del equipo, asignando tareas de la siguiente manera:
 
