@@ -238,7 +238,7 @@ Se utilizo el web driver de Firefox:
    <img src="https://github.com/user-attachments/assets/191d74af-fd9f-4d2a-ace7-9e33bbc32db9" width="400"/>
    </p>
    
-3. **testGetMessage:**
+3. **testUpdateMessage:**
 
    . Objetivo: Asegurar que un mensaje existente puede ser actualizado.
    
@@ -281,13 +281,13 @@ Se utilizo el web driver de Firefox:
 ### Evidencia de Pruebas Funcionales
 
   <p align="center">
-   <img src="https://github.com/user-attachments/assets/bcfc4719-cf70-45a4-b174-46a936dec986" width="400"/>
+   <img src="https://github.com/user-attachments/assets/fd540409-7dac-4b14-854e-5bf9d1ac830f" width="400"/>
    </p>
    
 #### Integración de las pruebas de performance con Jenkins:
 
    <p align="center">
-   <img src="https://github.com/user-attachments/assets/d23396f8-856c-4cc2-8722-fa237aeba387" width="400"/>
+   <img src="https://github.com/user-attachments/assets/13cda01a-626c-4f8d-b09b-bbbeea89e09f" width="400"/>
    </p>
 
 ### E. Pruebas de Performance
