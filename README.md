@@ -1,3 +1,12 @@
+## Integrantes del Proyecto
+1. Chávez Echevarria Andres 
+2. Valega Vidarte Renzo
+3. Jauregui Diaz Yajahira
+4. Mayor Coloma Fabrizio
+5. Barbosa Mota Branimir
+6. Coronel Vilca Brisa
+
+
 ## 1. Propósito del Proyecto
 ### Descripción
 Nuestra aplicación web se basa en Spring Boot con Thymeleaf como motor de plantillas para la interfaz. 
