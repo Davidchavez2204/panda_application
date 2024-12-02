@@ -17,7 +17,9 @@ public class FunctionalTests {
     @BeforeEach
     public void setUp() {
         System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-        driver = new FirefoxDriver();
+        FirefoxOptions options = new FirefoxOptions();
+        options.setHeadless(true); // Enable headless mode
+        driver = new FirefoxDriver(options);
         driver.get("http://localhost:8081/index.html"); // URL de la aplicación
     }
 
