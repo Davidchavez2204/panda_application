@@ -349,7 +349,7 @@ Se realizan pruebas de seguridad para garantizar que la aplicación esté proteg
 #### Integración con Jenkins
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/b2b75b6d-cb73-49d1-b2e9-893e2ed1542a" width="600"/>
+<img src="https://github.com/user-attachments/assets/8fa1c8a5-2889-44ff-89c6-984ca746e359" width="600"/>
 </p>
 
 ### G. Gestión de Issues
