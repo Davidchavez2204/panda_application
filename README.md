@@ -277,6 +277,12 @@ Se utilizo el web driver de Firefox:
    <p align="center">
    <img src="https://github.com/user-attachments/assets/b374ce49-ef4a-4a63-a0d7-d76ca765df10" width="400"/>
    </p>
+
+### Evidencia de Pruebas Unitarias
+
+  <p align="center">
+   <img src="https://github.com/user-attachments/assets/ff85b94b-6eff-42c0-9453-2a925aeb34da" width="400"/>
+   </p>
    
 #### Integración de las pruebas de performance con Jenkins:
 
