@@ -16,7 +16,7 @@ public class FunctionalTests {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "C:/Users/Usuario/Desktop/geckodriver.exe"); // Cambia esta ruta
+        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver"); // Cambia esta ruta
         driver = new FirefoxDriver();
         driver.get("http://localhost:8081/index.html"); // URL de la aplicación
     }
