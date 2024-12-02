@@ -275,7 +275,7 @@ Se utilizo el web driver de Firefox:
    . Resultado esperado: El mensaje se eliminó correctamente.
    
    <p align="center">
-   <img src="https://github.com/user-attachments/assets/b374ce49-ef4a-4a63-a0d7-d76ca765df10" width="400"/>
+   <img src="https://github.com/user-attachments/assets/bcfc4719-cf70-45a4-b174-46a936dec986" width="400"/>
    </p>
 
 ### Evidencia de Pruebas Unitarias
