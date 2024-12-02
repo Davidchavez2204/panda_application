@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -17,9 +18,11 @@ public class FunctionalTests {
     @BeforeEach
     public void setUp() {
         System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-        FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true); // Enable headless mode
-        driver = new FirefoxDriver(options);
+
+    FirefoxOptions options = new FirefoxOptions();
+    options.setHeadless(true); // Enable headless mode
+
+    WebDriver driver = new FirefoxDriver(options);
         driver.get("http://localhost:8081/index.html"); // URL de la aplicación
     }
 
