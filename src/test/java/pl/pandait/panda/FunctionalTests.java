@@ -17,12 +17,22 @@ public class FunctionalTests {
 
     @BeforeEach
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+        String geckoDriverPath = System.getenv("GECKODRIVER_PATH");
+        String firefoxBinaryPath = System.getenv("FIREFOX_BINARY");
 
-    FirefoxOptions options = new FirefoxOptions();
-    options.setHeadless(true); // Enable headless mode
+        if (geckoDriverPath == null || firefoxBinaryPath == null) {
+            throw new RuntimeException("Environment variables GECKODRIVER_PATH or FIREFOX_BINARY are not set.");
+        }
 
-    WebDriver driver = new FirefoxDriver(options);
+        // Set the system properties for WebDriver
+        System.setProperty("webdriver.gecko.driver", geckoDriverPath);
+
+        // Configure Firefox options
+        FirefoxOptions options = new FirefoxOptions();
+        options.setBinary(firefoxBinaryPath);
+
+        // Initialize the WebDriver
+        driver = new FirefoxDriver(options);
         driver.get("http://localhost:8081/index.html"); // URL de la aplicación
     }
 
